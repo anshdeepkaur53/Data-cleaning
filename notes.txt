@@ -1,0 +1,20 @@
+1 data cleaning
+2 features table
+3 algorithm
+
+factors for calculating customer score:
+1 refund
+2 order amount 
+3 items order (2 and 3 can be combined as 1 column)
+3 item recieved date - date on which item was requested for refund 
+4 customer id( we are considering that same customers are buying again and again)
+5 total no. of orders
+6 rating of product
+
+x*f1 +x*f2 + x*f3 = score
+
+(.95*1000)
+900 -> 10 coupons
+800 -> 8 coupons 
+
+coupons -> discounts avail
